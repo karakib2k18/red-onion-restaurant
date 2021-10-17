@@ -1,11 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import headerLogo from '../../../images/logo2.png'
 import './Header.css'
+import useAuth from '../../../Hooks/useAuth';
+import { HashLink } from 'react-router-hash-link';
 const Header = () => {
+    const { user, logOut } = useAuth();
     const element = <FontAwesomeIcon icon={faShoppingCart} />
     const headerStyle = {
         borderRadius: '25px',
@@ -32,9 +35,17 @@ const Header = () => {
                         <Nav className="ms-auto">
 
                             <NavLink className="nav-link" activeStyle={headerStyle} to="/placeorder">{element}</NavLink>
-                            <NavLink className="nav-link" activeStyle={headerStyle} to="/home">Home</NavLink>
-                            <NavLink className="nav-link" activeStyle={headerStyle} to="/login">Login</NavLink>
-                            <NavLink className="nav-link" activeStyle={headerStyle} to="/signup">SignUp</NavLink>
+                            <NavLink as={HashLink} className="nav-link" activeStyle={headerStyle} to="/home#Dinner">Dinner</NavLink>
+
+                            {
+                                user.displayName && <img style={{ height: '2rem', width: '2rem' }} src={user.photoURL} alt="" />
+                            }
+                            {
+                                user.displayName ? <p className="nav-link">{user.displayName}</p> : <NavLink className="nav-link" activeStyle={headerStyle} to="/signup">SignUp</NavLink>
+                            }
+                            {
+                                user.displayName ? <Button onClick={logOut} variant="light">Logout</Button> : <NavLink className="nav-link" activeStyle={headerStyle} to="/login">Login</NavLink>
+                            }
 
                         </Nav>
                     </Navbar.Collapse>

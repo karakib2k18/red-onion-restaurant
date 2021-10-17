@@ -1,21 +1,27 @@
-import React from 'react';
+// import React, { useState } from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
 import './MealCartStore.css'
 
 const MealCartStore = (props) => {
     const { title, description, price, tag, img, id } = props.meal;
     const url = `food/${id}`;
+    // const [isShowSpinner, setIsShowSpinner] = useState(true);
+    const { isShowSpinner } = useAuth();
     return (
         <>
             <Col>
                 <Card className='shadowhover mb-4'>
                     <h6> <span className='tag-color'>{tag} </span></h6>
-                    <Card.Img variant="top" className="rounded-circle mx-auto d-block text-center" src={img} style={{ height: '12rem', width: '12rem' }} />
+                    {
+                        img ? <Card.Img variant="top" className="rounded-circle mx-auto d-block text-center" src={img} style={{ height: '12rem', width: '12rem' }} /> : isShowSpinner
+                    }
+
                     <Card.Body className='text-center'>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>
-                            {description.slice(0,67)}
+                            {description.slice(0, 67)}
                         </Card.Text>
                         <Card.Title>$ {price}</Card.Title>
                     </Card.Body>

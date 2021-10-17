@@ -26,11 +26,11 @@ const MealCart = () => {
                     <span className={foodTag === 'Breakfast' ? 'active-link-tag' : 'inactive-link-tag'} >Breakfast</span>
                 </Link>
 
-                <Link onClick={() => setFoodTag('Lunch')} className="inactive-link-tag" to="/home#Lunch">
+                <Link id='Lunch' onClick={() => setFoodTag('Lunch')} className="inactive-link-tag" to="/home#Lunch">
                     <span className={foodTag === 'Lunch' ? 'active-link-tag' : 'inactive-link-tag'} >Lunch</span>
                 </Link>
 
-                <Link onClick={() => setFoodTag('Dinner')} className="inactive-link-tag" to="/home#Dinner">
+                <Link id='Dinner' onClick={() => setFoodTag('Dinner')} className="inactive-link-tag" to="/home#Dinner">
                     <span className={foodTag === 'Dinner' ? 'active-link-tag' : 'inactive-link-tag'} >Dinner</span>
                 </Link>
 

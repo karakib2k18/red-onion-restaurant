@@ -8,13 +8,12 @@ const PlaceOrder = () => {
 
     return (
         <div>
-
             <Container >
                 <Row className='d-flex align-items-center justify-content-center py-4 form-left my-5'>
                     <Col sm={1} xs={1} md={1}>
                     </Col>
                     <Col sm={5} xs={5} md={5}>
-                        <h2 className='delivey-title'>Edit Delivery Details</h2>
+
                         <form onSubmit={handleSubmit(onSubmit)}>
 
                             {/* <input defaultValue="" {...register("example")} placeholder="Your Name" /> */}
@@ -37,13 +36,13 @@ const PlaceOrder = () => {
                             {errors.delivetInstruction && <span>This field is required</span>}
 
 
-                            <input type="submit" className='text-dark' value='Save & Continue' />
+                            <input type="submit" className='text-dark' value='SignUp' />
                         </form>
                     </Col>
                     <Col sm={2} xs={2} md={2}>
                     </Col>
                     <Col sm={3} xs={3} md={3}>
-                        <form onSubmit={handleSubmit(onSubmit)}>
+                        {/* <form onSubmit={handleSubmit(onSubmit)} >
 
                             <input defaultValue="test" {...register("example")} />
 
@@ -51,8 +50,8 @@ const PlaceOrder = () => {
 
                             {errors.exampleRequired && <span>This field is required</span>}
 
-                            <input type="submit" className='text-dark' value='Save & Continue' />
-                        </form>
+                            <input type="submit" className='text-dark' value='Save & Continue'  />
+                        </form> */}
                     </Col>
                     <Col sm={1} xs={1} md={1}>
                     </Col>
