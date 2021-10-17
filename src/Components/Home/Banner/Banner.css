@@ -1,0 +1,27 @@
+.banner-img {
+  background-image: url(../../../images/bannerbackground.png);
+  height: 70vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-btn {
+  border: none;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 7px 25px;
+}
+.search-btn:hover {
+  background-color: red;
+  outline: red;
+}
+.form-control {
+  border: none;
+  border-radius: 25px;
+  padding: 8px 15px;
+}

@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "Eggs Benedict",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 8.99,
+        "img": "https://i.ibb.co/WDBGXYM/breakfast1.png",
+        "tag": "Breakfast"
+    },
+    {
+        "id": 2,
+        "title": "Breakfast Sandwich",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 9.99,
+        "img": "https://i.ibb.co/b14pGxR/breakfast2.png",
+        "tag": "Breakfast"
+    },
+    {
+        "id": 3,
+        "title": "Baked Chiken",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 10.99,
+        "img": "https://i.ibb.co/WsRPbM6/breakfast3.png",
+        "tag": "Breakfast"
+    },
+    {
+        "id": 4,
+        "title": "Bagel and cream cheese",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 23.99,
+        "img": "https://i.ibb.co/4jdxByq/breakfast4.png",
+        "tag": "Breakfast"
+    },
+    {
+        "id": 5,
+        "title": "Fried Egg Toast Brunch",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 3.99,
+        "img": "https://i.ibb.co/n75Psvb/breakfast5.png",
+        "tag": "Breakfast"
+    },
+    {
+        "id": 6,
+        "title": "Toast Croissant Fried Egg",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 19.99,
+        "img": "https://i.ibb.co/xFTW4wJ/breakfast6.png",
+        "tag": "Breakfast"
+    },
+    {
+        "id": 7,
+        "title": "Beef Steak",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 15.99,
+        "img": "https://i.ibb.co/gTJgwYc/lunch1.png",
+        "tag": "Lunch"
+    },
+    {
+        "id": 8,
+        "title": "Honey with Peppers",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 7.99,
+        "img": "https://i.ibb.co/sq02LWB/lunch2.png",
+        "tag": "Lunch"
+    },
+    {
+        "id": 9,
+        "title": "Tarrgaon Rubbed Salmon",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 17.99,
+        "img": "https://i.ibb.co/ftFSNNq/lunch3.png",
+        "tag": "Lunch"
+    },
+    {
+        "id": 10,
+        "title": "Indian Lunch",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 8.99,
+        "img": "https://i.ibb.co/QYPqkdd/lunch4.png",
+        "tag": "Lunch"
+    },
+    {
+        "id": 11,
+        "title": "Fried Chicken Bento",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 13.99,
+        "img": "https://i.ibb.co/myqGkLL/lunch5.png",
+        "tag": "Lunch"
+    },
+    {
+        "id": 12,
+        "title": "healthy Meal Plan",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 83.99,
+        "img": "https://i.ibb.co/r6Jx9cq/lunch6.png",
+        "tag": "Lunch"
+    },
+    {
+        "id": 13,
+        "title": "Baked Chicken",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 66.99,
+        "img": "https://i.ibb.co/02wvTRx/dinner1.png",
+        "tag": "Dinner"
+    },
+    {
+        "id": 14,
+        "title": "Lemony Salmaon Piccata",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 56.99,
+        "img": "https://i.ibb.co/v15q0w7/dinner2.png",
+        "tag": "Dinner"
+    },
+    {
+        "id": 15,
+        "title": "Garlic Butter Baked Salmon",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 38.99,
+        "img": "https://i.ibb.co/VHt6X9Q/dinner3.png",
+        "tag": "Dinner"
+    },
+    {
+        "id": 16,
+        "title": "French Fried with Cheese",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 23.99,
+        "img": "https://i.ibb.co/pLNfNtm/dinner4.png",
+        "tag": "Dinner"
+    },
+    {
+        "id": 17,
+        "title": "Pork Tenderion",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 12.99,
+        "img": "https://i.ibb.co/cb9mjLy/dinner5.png",
+        "tag": "Dinner"
+    },
+    {
+        "id": 18,
+        "title": "Lentil Salad",
+        "description": "Baked Gnocchi with Vodka Sauce! Seriously cozy, seriously addicting. Pillowy-tender gnocchi tossed with an easy five-ingredient vodka sauce, baked under a layer of mozzarella, parmesan, and basil.",
+        "price": 29.99,
+        "img": "https://i.ibb.co/VWVd6y9/dinner6.png",
+        "tag": "Dinner"
+    }
+]

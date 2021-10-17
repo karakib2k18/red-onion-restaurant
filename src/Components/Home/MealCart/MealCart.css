@@ -1,0 +1,14 @@
+.active-link-tag, .active-link-tag:hover {
+  border-radius: 25px;
+  padding: 7px 25px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(231, 12, 12);
+}
+.inactive-link-tag, .inactive-link-tag:hover {
+
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  
+}
