@@ -9,6 +9,7 @@ import SignUp from './Components/SignUp/SignUp';
 import NotFound from './Components/NotFound/NotFound';
 import Home from './Components/Home/Home/Home';
 import FoodDetails from './Components/FoodDetails/FoodDetails';
+import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 
 
 function App() {
@@ -23,8 +24,11 @@ function App() {
           <Route path='/home'>
             <Home></Home>
           </Route>
-          <Route path='/food/:id'>
+          <Route path='/food/:foodId'>
             <FoodDetails></FoodDetails>
+          </Route>
+          <Route path='/placeorder'>
+            <PlaceOrder></PlaceOrder>
           </Route>
           <Route path='/login'>
             <Login></Login>

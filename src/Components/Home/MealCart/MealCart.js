@@ -11,7 +11,7 @@ const MealCart = () => {
     const [isShowSpinner, setIsShowSpinner] = useState(true);
 
     useEffect(() => {
-        fetch('./MealCart.json')
+        fetch('./MealCard.json')
             .then(res => res.json())
             .then(data => {
                 setMeals(data);

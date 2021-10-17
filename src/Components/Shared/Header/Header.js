@@ -27,17 +27,17 @@ const Header = () => {
                         height="50"
                         className="d-inline-block align-top"
                     /></NavLink>
-                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav"> */}
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
 
-                            <NavLink className="nav-link" activeStyle={headerStyle} to="/shopping">{element}</NavLink>
+                            <NavLink className="nav-link" activeStyle={headerStyle} to="/placeorder">{element}</NavLink>
                             <NavLink className="nav-link" activeStyle={headerStyle} to="/home">Home</NavLink>
                             <NavLink className="nav-link" activeStyle={headerStyle} to="/login">Login</NavLink>
                             <NavLink className="nav-link" activeStyle={headerStyle} to="/signup">SignUp</NavLink>
 
                         </Nav>
-                    {/* </Navbar.Collapse> */}
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
